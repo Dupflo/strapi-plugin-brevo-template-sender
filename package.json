@@ -1,6 +1,14 @@
 {
   "version": "1.0.0",
-  "keywords": [],
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "brevo",
+    "sendinblue",
+    "email",
+    "template",
+    "transactional"
+  ],
   "type": "commonjs",
   "exports": {
     "./package.json": "./package.json",
@@ -20,9 +28,11 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "doc"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "build": "strapi-plugin build",
     "watch": "strapi-plugin watch",
     "watch:link": "strapi-plugin watch:link",
