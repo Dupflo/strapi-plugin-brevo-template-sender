@@ -16,7 +16,7 @@
     </a>
   </p>
 
-![Demo - Brevo Template Sender](./doc/demo.gif)
+![Demo - Brevo Template Sender](https://imgur.com/a/IPnBvVd)
 
 </div>
 
