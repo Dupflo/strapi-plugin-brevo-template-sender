@@ -1,8 +1,6 @@
-<!-- markdownlint-disable MD033 MD041 -->
-
 <div align="center" width="150px">
 
-![Logo - Brevo Template Sender](./doc/logo.webp)
+![Logo - Brevo Template Sender](./doc/logo.png)
 
   <h1>Strapi Brevo Template Sender</h1>
 
@@ -16,7 +14,7 @@
     </a>
   </p>
 
-![Demo - Brevo Template Sender](https://imgur.com/a/IPnBvVd)
+![Demo - Brevo Template Sender](https://res.cloudinary.com/dxk9u8hrk/image/upload/v1773427338/demo_prcrhh.gif)
 
 </div>
 
