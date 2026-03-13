@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brevo_email_templates",
+  "info": {
+    "singularName": "email-template",
+    "pluralName": "email-templates",
+    "displayName": "Email Template (Brevo)",
+    "description": "Templates HTML pour envoi d'emails via Brevo. Utilisez {{variable}} dans le sujet et le HTML."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "content-manager": { "visible": false },
+    "content-type-builder": { "visible": true }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    },
+    "html": {
+      "type": "text",
+      "required": true
+    },
+    "templateMode": {
+      "type": "enumeration",
+      "enum": ["html", "brevo"],
+      "default": "html"
+    },
+    "brevoTemplateId": {
+      "type": "integer"
+    },
+    "recipients": {
+      "type": "text"
+    }
+  }
+}
